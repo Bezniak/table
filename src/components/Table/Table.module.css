@@ -1,0 +1,39 @@
+.tableContainer {
+    padding: 20px;
+}
+
+.tableContainer h1 {
+    font-size: 2rem;
+    margin: 20px auto;
+}
+
+.table {
+    margin: 0 auto;
+    width: 95%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid darkgray;
+    padding: 8px;
+    text-align: center;
+}
+
+th:first-child, td:first-child {
+    width: 1%;
+    white-space: nowrap;
+}
+
+.trueCell {
+    background-color: #a8d5ba;
+}
+
+.verticalText {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    height: 100px;
+    padding: 0;
+}
